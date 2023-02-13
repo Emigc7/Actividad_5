@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+*,::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    display: block;
+}
+.wrapped {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+
+.noticias{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+
+.noticia-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 3px;
+    width: calc(48% - 10px);
+    padding: 5px;
+    
+}
+
+@media (max-width:548px){
+    .noticia-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        border: 1px solid rgb(196, 193, 193);
+        border-radius: 3px;
+        width: calc(90%);
+        padding: 5px;
+    }
+    
+}
+.contenido-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.imagen-noticia{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fecha-noticia{
+    display: inline;
+    margin-top: 1rem;
+    justify-content: end;
+    text-align: end;
+}
+
+

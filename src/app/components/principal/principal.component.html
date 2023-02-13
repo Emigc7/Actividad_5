@@ -1,0 +1,46 @@
+
+<!--Formulario-->
+<section action="form-page" class="formulario">
+
+    <div class="container-elemento">
+        <label for="titulo">Titulo</label>
+        <input type="text" id="titulo" [(ngModel)]="title">
+    </div>
+
+    <div class="container-elemento">
+        <label for="imagen">Imagen</label>
+        <input type="text" id="imagen" [(ngModel)]="img">
+    </div>
+
+    <div class="container-elemento">
+        <label for="cuerpo">Texto</label>
+        <textarea  class = "textArea" id="cuerpo" cols="30" rows="10" [(ngModel)]="text"></textarea>
+    </div>
+
+    
+    <div class="container-elemento">
+        <label for="Fecha">Fecha</label>
+        <input type="date" [(ngModel)]="fecha">
+    </div>
+
+    <div class="container-boton">
+        <button class="boton" (click)="guardar()">Publicar</button>
+    </div>
+    
+
+</section>
+
+
+<!--Noticias que se generan-->
+
+<div class="separador-noticias">
+    <h2>NOTICIAS RECIENTES</h2>
+
+</div>
+<section class="noticias">
+
+    <div  class="noticias-siguientes wrapper" [innerHTML]="noticias"></div>
+
+
+</section>
+
