@@ -1,5 +1,8 @@
 .header{
-    padding-left: 1rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
     background-color: black;
     color: white;
     

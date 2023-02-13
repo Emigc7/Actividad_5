@@ -20,7 +20,7 @@ export class PrincipalComponent {
                                   <div class="contenido-principal">
                                       <h2 class="titulo-noticia">Nueva asignatura en UPM</h2>
                                       <img src="https://previews.123rf.com/images/auremar/auremar1704/auremar170400761/77058057-tenga-que-arreglar-la-impresora.jpg" class="imagen-noticia">
-                                      <p class="texto-noticia"> Ante la alta demanda de recien graduados del grado de Ingeniería Informática que se les solicitaba arreglar la impresora de su vecino o familiar.
+                                      <p class="texto-noticia"> Ante la alta demanda de recien graduados del grado de Ingeniería Informática que se les solicita arreglar la impresora de sus allegados.
                                       La universidad politécnica de Madrid se ha visto obligado a agregar la asignatura: "Introducción a la reparación de impresoras".
                                       <br> <br> La propuesta está siendo un exito por el momento.</p>
                                   </div>
@@ -31,8 +31,8 @@ export class PrincipalComponent {
                                 <div class="contenido-principal">
                                     <h2 class="titulo-noticia">Ganador falso de la lotería</h2>
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDsCEHlA6K13pwymDH4QwMtxr7EIO5yeceUA&usqp=CAU" class="imagen-noticia">
-                                    <p class="texto-noticia"> El anterior fin de semana este chico de Alicante recibió la noticia de haber ganado la lotería. Ante la emoción de haber ganado 50 millones de euros, el chico se fue de su empresa
-                                    insultando a sus jefes. <br> Al llegar a la administración de lotería se dió cuenta de que la persona que le dió la noticia confundió un 8 con un 3.
+                                    <p class="texto-noticia"> El anterior fin de semana este chico de Alicante recibió la noticia de haber ganado el euromillón. Ante la emoción de haber ganado 50 millones de euros, el chico se fue de su empresa
+                                    insultando a sus jefes y faltando el respeto a algunos de sus excompañeros. <br> Al llegar a la administración de lotería se dió cuenta de que la persona que le dió la noticia confundió un 8 con un 3.
                                     </p>
                                 </div>
                                 <p class="fecha-noticia">Fecha publicación: 2023-02-13</p>
